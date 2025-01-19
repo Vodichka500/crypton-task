@@ -24,9 +24,9 @@ createRoot(document.getElementById('root')).render(
                     <Routes>
                         <Route element={<Layout />}>
                             <Route path="/" element={<HomePage />} />
-                            <Route path="login" element={<LoginPage />} />
-                            <Route path="register" element={<RegisterPage />} />
-                            <Route path="profile" element={<ProfilePage />} />
+                            <Route path="/login" element={<LoginPage />} />
+                            <Route path="/register" element={<RegisterPage />} />
+                            <Route path="/profile" element={<ProfilePage />} />
                         </Route>
                     </Routes>
                 </BrowserRouter>
