@@ -22,17 +22,17 @@ const Header = () => {
                     </Button>
                 </SheetTrigger>
                 <SheetContent side="left" className="text-white border-gray-600 bg-[#212121]">
-                    <a href="/" className="mr-6 hidden lg:flex">
+                    <a href="/#/" className="mr-6 hidden lg:flex">
                         <img src="https://crypton.xyz/638fc5d41557198f8649.svg" alt="logo" className="w-6 h-6"/>
                     </a>
                     <div className="grid gap-2 py-6">
-                        <a href="/" className="flex w-full items-center py-2 text-lg font-semibold">
+                        <a href="/#/" className="flex w-full items-center py-2 text-lg font-semibold">
                             Home
                         </a>
-                        <a href="/login" className="flex w-full items-center py-2 text-lg font-semibold">
+                        <a href="/#/login" className="flex w-full items-center py-2 text-lg font-semibold">
                             Login
                         </a>
-                        <a href="/register" className="flex w-full items-center py-2 text-lg font-semibold">
+                        <a href="/#/register" className="flex w-full items-center py-2 text-lg font-semibold">
                             Register
                         </a>
                     </div>

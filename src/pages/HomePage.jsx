@@ -31,7 +31,7 @@ const HomePage = () => {
                         </div>
 
                         <div className="flex justify-center">
-                            <a href="/register"
+                            <a href="/#/register"
                                className="px-10 bg-transparent py-6 flex gap-10 flex-col justify-between items-center border-2 border-mainLightText rounded-2xl dark:bg-[#18191c]  dark:border-wight">
                                 <div className="text-3xl">
                                     Register
@@ -50,7 +50,7 @@ const HomePage = () => {
                     </div>
 
                     <div className="flex justify-start">
-                        <a href="/profile"
+                        <a href="/#/profile"
                            className="px-10 bg-transparent py-6 flex gap-10  justify-between items-center border-2 border-mainLightText rounded-2xl dark:bg-[#18191c]  dark:border-wight">
                             <div className="flex flex-col items-center">
                                 <div className="text-3xl">

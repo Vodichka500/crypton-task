@@ -112,7 +112,7 @@ const RegisterPage = () => {
                             {formik.touched.passwordRepeat && formik.errors.passwordRepeat ? <div className="text-mainRed">{formik.errors.passwordRepeat}</div> : null}
 
                             <div>Have account<span className="font-sans">?</span> <a className="underline text-mainRed"
-                                                                                     href="/login">Log in<span
+                                                                                     href="/#/login">Log in<span
                                 className="font-sans">!</span></a></div>
                         </CardContent>
                         <CardFooter className="flex flex-col">
@@ -145,7 +145,7 @@ const RegisterPage = () => {
                                 mutation.isSuccess &&
                                 <>
                                     <div className="mt-2 text-green-500">Registration was successful</div>
-                                    <a href="/login" className="text-center w-full underline">
+                                    <a href="/#/login" className="text-center w-full underline">
                                         {"Log in"}
                                     </a>
                                 </>

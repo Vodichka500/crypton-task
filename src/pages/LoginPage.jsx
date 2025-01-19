@@ -110,7 +110,7 @@ const LoginPage = () => {
                             </div>
                             {formik.touched.password && formik.errors.password ? <div className="text-mainRed">{formik.errors.password}</div> : null}
 
-                            <div>Dont have account<span className="font-sans">?</span> <a className="underline" href="/register">Join us<span className="font-sans">!</span></a></div>
+                            <div>Dont have account<span className="font-sans">?</span> <a className="underline" href="/#/register">Join us<span className="font-sans">!</span></a></div>
                         </CardContent>
                         <CardFooter className="flex flex-col">
                             {
