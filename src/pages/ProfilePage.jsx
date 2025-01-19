@@ -180,9 +180,13 @@ const ProfilePage = () => {
 
                         </CardContent>
                         <CardFooter className="w-full flex justify-end">
+                            <a href="https://t.me/Vlvlvlvod">
                             <Button variant="outline"
                                     className="border-dashed border-2 border-black  rounded-xl text-black font-bold"
                             >Apply for a job</Button>
+
+                            </a>
+
                         </CardFooter>
                     </Card>
                 </div>

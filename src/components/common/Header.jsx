@@ -38,25 +38,25 @@ const Header = () => {
                     </div>
                 </SheetContent>
             </Sheet>
-            <a href="/" className="mr-6 hidden lg:flex lg:gap-4 text-md font-bold">
+            <a href="/#/" className="mr-6 hidden lg:flex lg:gap-4 text-md font-bold">
                 <img src="https://crypton.xyz/638fc5d41557198f8649.svg" alt="logo" className="w-6 h-6"/>
                 Crypyon
             </a>
             <nav className="ml-auto hidden lg:flex gap-6">
                 <a
-                    href="/"
+                    href="/#/"
                     className="group text-mainLightText dark:text-gray-300 inline-flex h-9 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium transition-colors  hover:text-mainRed focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 "
                 >
                     Home
                 </a>
                 <a
-                    href="/login"
+                    href="/#/login"
                     className="group text-mainLightText dark:text-gray-300 inline-flex h-9 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium transition-colors  hover:text-mainRed focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50"
                 >
                     Login
                 </a>
                 <a
-                    href="/register"
+                    href="/#/register"
                     className="group text-mainLightText dark:text-gray-300 inline-flex h-9 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium transition-colors hover:text-mainRed focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 "
                 >
                     Register
