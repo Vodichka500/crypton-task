@@ -4,7 +4,11 @@ import './index.css'
 import HomePage from "./pages/HomePage.jsx"
 import LoginPage from "./pages/LoginPage.jsx";
 import RegisterPage from "./pages/RegisterPage.jsx";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+//import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+
+
 import Layout from "./Layout.jsx";
 
 import {
@@ -20,18 +24,37 @@ createRoot(document.getElementById('root')).render(
     <StrictMode>
         <ThemeProvider>
             <QueryClientProvider client={queryClient}>
-                <BrowserRouter>
+                <HashRouter>
                     <Routes>
                         <Route element={<Layout />}>
                             <Route path="/" element={<HomePage />} />
                             <Route path="/login" element={<LoginPage />} />
-                            <Route path="https://crypton-task.vercel.app/login" element={<LoginPage />} />
                             <Route path="/register" element={<RegisterPage />} />
                             <Route path="/profile" element={<ProfilePage />} />
                         </Route>
                     </Routes>
-                </BrowserRouter>
+                </HashRouter>
             </QueryClientProvider>
         </ThemeProvider>
-    </StrictMode>,
+    </StrictMode>
 )
+
+
+// createRoot(document.getElementById('root')).render(
+//     <StrictMode>
+//         <ThemeProvider>
+//             <QueryClientProvider client={queryClient}>
+//                 <BrowserRouter>
+//                     <Routes>
+//                         <Route element={<Layout />}>
+//                             <Route path="/" element={<HomePage />} />
+//                             <Route path="/login" element={<LoginPage />} />
+//                             <Route path="/register" element={<RegisterPage />} />
+//                             <Route path="/profile" element={<ProfilePage />} />
+//                         </Route>
+//                     </Routes>
+//                 </BrowserRouter>
+//             </QueryClientProvider>
+//         </ThemeProvider>
+//     </StrictMode>
+// )

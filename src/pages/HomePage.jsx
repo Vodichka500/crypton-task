@@ -12,7 +12,7 @@ const HomePage = () => {
                 <div className="flex flex-col justify-start gap-10">
                     <div className="flex gap-10">
                         <div className="relative flex justify-center">
-                            <a href="/login"
+                            <a href="/#/login"
                                className=" px-10  py-6 flex gap-10 flex-col justify-between items-center border-2 border-mainLightText rounded-2xl dark:bg-[#18191c]  dark:border-wight">
                                 <div className="text-3xl">
                                     Log In
