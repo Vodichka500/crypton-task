@@ -25,6 +25,7 @@ createRoot(document.getElementById('root')).render(
                         <Route element={<Layout />}>
                             <Route path="/" element={<HomePage />} />
                             <Route path="/login" element={<LoginPage />} />
+                            <Route path="https://crypton-task.vercel.app/login" element={<LoginPage />} />
                             <Route path="/register" element={<RegisterPage />} />
                             <Route path="/profile" element={<ProfilePage />} />
                         </Route>
